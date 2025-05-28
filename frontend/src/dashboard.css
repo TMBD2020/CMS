@@ -1,0 +1,123 @@
+body {
+    background-color: #f4f4f9;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(36, 35, 35, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.custom-padding {
+    padding: 15px;
+    background: #f5efef;
+  }
+  /* .login-header-2{
+    margin-left: 1200px;
+    margin-top: 0px;
+  } */
+  .login-header-2 p{
+    color: #000;
+    font-size: small;
+  }
+  .text-darkk{
+    color: #000;
+    font-size: 13px; 
+    font-family: 'Poppins', sans-serif !important;
+   }
+
+   /* Project income/expense heads box  */
+/* General Container for Tags */
+.tags-container {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  background: #fefeff;
+  min-height: 38px;
+}
+
+/* Input field within the tags container */
+.tag-input-field {
+  border: none;
+  flex: 1;
+  margin: 2px;
+  outline: none;
+  background: none;
+  font-size: 0.875rem;
+}
+
+/* Style for Selected Tags */
+.selected-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* Single Tag Style */
+.single-tag {
+  background: #00A884;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Remove Button for Tags */
+.tag-remove {
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+/* Placeholder Fix for Consistency */
+.tag-input::placeholder {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+.bg-pannel{
+background: #00A884;
+}
+.pannelTitle{
+  color: #fff;
+  font-weight: 600;
+}
+.tabText{
+  color: #00A884 !important;
+}
+.img-circle {
+  border-radius: 15%;
+}
+.profile-user-img {
+  border: 5px solid #00A884;
+  margin: 0 auto;
+  padding: 1px;
+  width: 110px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.custom-checkbox {
+  accent-color: #00A884; 
+  width: 15px; /* Increase width */
+  height: 15px; /* Increase height */
+  transform: scale(1.1); /* Scale the checkbox */
+  margin: 8px; /* Add some margin for better spacing */
+  float:center;
+}
